@@ -1,0 +1,22 @@
+{
+  "name": "station-list-generator",
+  "version": "1.0.0",
+  "description": "Updates station-list table for metro db",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/teddyf/station-list-generator.git"
+  },
+  "keywords": [
+    "metro"
+  ],
+  "author": "teddytfranceschi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teddyf/station-list-generator/issues"
+  },
+  "homepage": "https://github.com/teddyf/station-list-generator#readme"
+}
