@@ -4,7 +4,8 @@
   "description": "Updates station-list table for metro db",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "locally": "node -e \"console.log(require('./index').handler({}));\""
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/teddyf/station-list-generator/issues"
   },
-  "homepage": "https://github.com/teddyf/station-list-generator#readme"
+  "homepage": "https://github.com/teddyf/station-list-generator#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "dotenv": "^8.1.0",
+    "mysql": "^2.17.1"
+  }
 }
